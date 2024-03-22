@@ -20,3 +20,8 @@ docker-compose up -d
 ```bash
 npm start
 ```
+
+## Para desplegar la app en produccion se debe ejecutar el siguiente comando que migra la base de datos en produccion
+```
+prisma:migrate:prod
+```
